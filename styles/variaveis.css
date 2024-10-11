@@ -45,6 +45,10 @@
   --branco: white;
   --preto: black;
 
+  /* Cor de background */
+  --background-primario: var(--dark08);
+  --background-secundario: var(--dark10);
+
   /*
    * Tipografia
    */
