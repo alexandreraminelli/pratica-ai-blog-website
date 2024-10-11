@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* Tipografia */
+
+/* Tipografia padrão */
+body {
+  font-family: var(--fonte-corpo);
+  font-size: 1rem;
+}
+
+/* Títulos */
+h1,
+h2,
+h3 {
+  font-family: var(--fonte-destaque);
+}
