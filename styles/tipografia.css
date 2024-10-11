@@ -5,6 +5,8 @@
 body {
   font-family: var(--fonte-corpo);
   font-size: 1rem;
+
+  color: var(--letra-branca);
 }
 
 /* Títulos */

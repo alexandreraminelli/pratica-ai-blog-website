@@ -49,6 +49,11 @@
   --background-primario: var(--dark08);
   --background-secundario: var(--dark10);
 
+  /* Cor de letras */
+  --letra-branca: var(--branco);
+  --letra-cinza: var(--cinza50);
+  --letra-preta: var(--preto);
+
   /*
    * Tipografia
    */
