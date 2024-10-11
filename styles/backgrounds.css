@@ -5,3 +5,11 @@
 body {
   background: var(--background-primario);
 }
+
+.background-primary {
+  background: var(--background-primario);
+}
+
+.background-secondary {
+  background: var(--background-secundario);
+}
