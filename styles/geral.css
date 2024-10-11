@@ -4,7 +4,7 @@
 @import url("variaveis.css");
 
 /* Tipografia */
-@import url("tipografia.css");
+@import url("tipografia/tipografia.css");
 
 /* Backgrounds */
 @import url("backgrounds.css");
