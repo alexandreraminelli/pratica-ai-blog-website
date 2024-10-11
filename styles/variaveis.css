@@ -2,4 +2,42 @@
 /* Variáveis CSS */
 
 :root {
+  /*
+   * Paleta de cores 
+   */
+
+  /*  Amarelo */
+  --amarelo55: #ffd11a;
+  --amarelo60: #ffd633;
+  --amarelo70: #ffe066;
+  --amarelo80: #ffeb99;
+  /*   Amarelo claro */
+  --amarelo90: #fff5cc;
+  --amarelo95: #fffae5;
+  --amarelo97: #fffcf0;
+  --amarelo99: #fbfbfe;
+
+  /* Dark */
+  --dark08: #141414;
+  --dark10: #1a1a1a;
+  --dark15: #262626;
+  --dark20: #333333;
+  --dark25: #404040;
+  --dark30: #4d4d4d;
+  --dark35: #595959;
+  --dark40: #666666;
+
+  /* Cinza */
+  --cinza50: #7e7e81;
+  --cinza60: #98989a;
+  --cinza70: #b3b3b3;
+  --cinza80: #cccccc;
+  --cinza90: #e4e4e7;
+  --cinza95: #f1f1f3;
+  --cinza97: #f7f7f8;
+  --cinza99: #fcfcfd;
+
+  /* Cores absolutas */
+  --branco: white;
+  --preto: black;
 }
