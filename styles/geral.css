@@ -6,5 +6,8 @@
 /* Tipografia */
 @import url("tipografia/tipografia.css");
 
+/* Container */
+@import url("container.css");
+
 /* Backgrounds */
 @import url("backgrounds.css");
