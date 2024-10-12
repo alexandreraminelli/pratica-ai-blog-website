@@ -3,7 +3,7 @@
 
 :root {
   /* Container mobile */
-  --container: 90vw;
+  --container: 96vw;
 
   /* Calcular padding lateral para container */
   --padding-lateral-container: calc(100vw - var(--container));
