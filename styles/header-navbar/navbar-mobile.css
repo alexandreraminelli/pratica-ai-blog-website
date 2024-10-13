@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* Navbar Mobile (sidebar) */
+/* wp < 816px */
+
+nav#navbar-header {
+  /* Posição */
+  position: fixed;
+  top: 0;
+  right: 0;
+  /* Dimensões */
+  height: 100vh;
+  width: calc(57vw - 36px);
+  /* Espaçamento */
+  padding: 10px 20px 10px 16px;
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+
+  /* Aparência */
+  background: var(--dark15);
+  border-left: 2px solid var(--amarelo55);
+  box-shadow: -4px 0 4px 1px rgba(0, 0, 0, 0.4);
+
+  /* Lista filha */
+  & ul {
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Blocos de link */
+  & a {
+    /* Container */
+
+    /* Tipografia */
+    font-size: 1.25rem;
+  }
+
+  /* Navbar responsiva */
+  /* Ocultar navbar no mobile */
+  transform: translateX(100%);
+  /* Efeito transição */
+  transition: transform 0.5s ease-in-out;
+  /* Exibir o navbar */
+  &.show {
+    transform: translateX(0);
+  }
+}
+
+/* Botão de fechar o navbar mobile */
+#button-close-sidebar {
+  background: none;
+  align-self: flex-end;
+  margin-bottom: 10px;
+  /* Ícone SVG */
+  &::before {
+    content: url("../../assets/svgs/ui-icons/ui-actions-icons/fechar.svg");
+  }
+}

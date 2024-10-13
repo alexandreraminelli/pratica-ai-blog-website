@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* Botões */
+
+button {
+  cursor: pointer;
+
+  border: none;
+}
+
+/* Botão estilo 01 */
+
+/* Botão primário */
+.primary-button {
+  background-color: var(--amarelo55);
+  color: var(--letra-preta);
+
+  /* Efeito hover */
+  transition: background-color 1s ease-in-out;
+  &:hover {
+    background-color: var(--amarelo70) !important;
+    border: none !important;
+  }
+}
