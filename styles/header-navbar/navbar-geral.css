@@ -28,12 +28,12 @@ nav#navbar-header {
     }
 
     /* Transição pro hover */
-    transition: background-color 0.5s ease-in-out;
-    /* transition: border 0.5s ease-in; */
+    transition: background-color 0.5s ease-in-out, color 0.75s ease;
 
     /* Efeito hover */
     &:hover {
       background: var(--dark10);
+      color: var(--amarelo55);
     }
 
     /* Link da página atual ou efeito hover */
