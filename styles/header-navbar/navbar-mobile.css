@@ -43,7 +43,6 @@ nav#navbar-header {
   /* Efeito transição */
   transition: transform 0.5s ease-in-out;
   /* Exibir o navbar */
-  &:hover,
   &.show {
     transform: translateX(0);
   }
