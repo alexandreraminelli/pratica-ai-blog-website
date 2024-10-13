@@ -66,13 +66,3 @@ header#page-header {
     height: 35px;
   }
 }
-
-/* Botão de navbar responsiva */
-#responsive-navbar-button {
-  background: none;
-
-  /* Ícone SVG */
-  &::before {
-    content: url("../../assets/svgs/ui-icons/ui-actions-icons/menu.svg");
-  }
-}
