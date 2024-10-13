@@ -50,6 +50,7 @@ header#page-header {
   /* Flexbox */
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   /* Espaçamento */
   padding-top: 20px;
@@ -58,6 +59,8 @@ header#page-header {
 
 /* Logo e título do header */
 #logo-header {
+  display: flex;
+  align-items: center;
   & img {
     /* Dimensões do logo */
     height: 35px;
