@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* Botões */
+
+button {
+  cursor: pointer;
+
+  border: none;
+}
