@@ -14,6 +14,9 @@ nav#navbar-header {
   width: calc(57vw - 36px);
   /* Espaçamento */
   padding: 10px 20px 10px 16px;
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
 
   /* Aparência */
   background: var(--dark15);
@@ -34,5 +37,16 @@ nav#navbar-header {
 
     /* Tipografia */
     font-size: 1.25rem;
+  }
+}
+
+/* Botão de fechar o navbar mobile */
+#button-close-sidebar {
+  background: none;
+  align-self: flex-end;
+  margin-bottom: 10px;
+  /* Ícone SVG */
+  &::before {
+    content: url("../../assets/svgs/ui-icons/ui-actions-icons/fechar.svg");
   }
 }
