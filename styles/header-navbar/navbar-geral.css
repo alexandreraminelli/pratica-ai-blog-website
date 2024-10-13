@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* Navbar geral */
+
+nav#navbar-header {
+  /* Ocultar navbar */
+  display: none;
+}

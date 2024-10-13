@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* Header geral */
+
+header#page-header {
+  /* Filhos diretos */
+  & > * {
+    padding-left: var(--padding-lateral-container);
+    padding-right: var(--padding-lateral-container);
+  }
+}
+
+/* Banner "Assine nossa newsletter" */
+#banner-newsletter-header {
+  /* Espaçamento */
+  padding-top: 10px;
+  padding-bottom: 14px;
+
+  /* Flexbox */
+  display: flex;
+  align-items: center;
+
+  /* Tipografia */
+  text-align: start;
+  font-size: 0.75rem;
+  /* Cor da letra */
+  & p,
+  & a {
+    color: var(--letra-cinza2);
+  }
+  /* Paragrafo */
+  & p {
+    width: 100%;
+  }
+
+  /* Inserir ícone de redirecionamento */
+  &::after {
+    /* SVG do ícone */
+    content: url("../../assets/svgs/ui-icons/ui-actions-icons/redirect.svg");
+  }
+}
