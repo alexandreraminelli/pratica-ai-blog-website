@@ -38,3 +38,38 @@ header#page-header {
     content: url("../../assets/svgs/ui-icons/ui-actions-icons/redirect.svg");
   }
 }
+
+/* Header principal (onde há a logo e navbar) */
+#header-principal {
+  /* Aparência */
+  background: var(--background-secundario);
+  /* Borda */
+  border-top: solid 1px var(--dark15);
+  border-bottom: solid 1px var(--dark15);
+
+  /* Flexbox */
+  display: flex;
+  justify-content: space-between;
+
+  /* Espaçamento */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Logo e título do header */
+#logo-header {
+  & img {
+    /* Dimensões do logo */
+    height: 35px;
+  }
+}
+
+/* Botão de navbar responsiva */
+#responsive-navbar-button {
+  background: none;
+
+  /* Ícone SVG */
+  &::before {
+    content: url("../../assets/svgs/ui-icons/ui-actions-icons/menu.svg");
+  }
+}
