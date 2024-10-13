@@ -3,8 +3,6 @@
 /* wp < 816px */
 
 nav#navbar-header {
-  /* Ocultar navbar */
-
   /* Posição */
   position: fixed;
   top: 0;
@@ -37,6 +35,17 @@ nav#navbar-header {
 
     /* Tipografia */
     font-size: 1.25rem;
+  }
+
+  /* Navbar responsiva */
+  /* Ocultar navbar no mobile */
+  transform: translateX(100%);
+  /* Efeito transição */
+  transition: transform 0.5s ease-in-out;
+  /* Exibir o navbar */
+  &:hover,
+  &.show {
+    transform: translateX(0);
   }
 }
 
