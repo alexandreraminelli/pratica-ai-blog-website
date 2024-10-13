@@ -25,3 +25,8 @@ h3,
 h4 {
   font-weight: 700;
 }
+
+/* Links */
+a {
+  color: inherit; /* Herdar cor do elemento pai */
+}
