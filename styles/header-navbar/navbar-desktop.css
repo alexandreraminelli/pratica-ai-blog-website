@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* Navbar Desktop (horizontal) */
+/* wp > 816px */
+
+nav#navbar-header {
+  /* Dimensões */
+  width: 100%;
+
+  /* Lista filha */
+  & > ul {
+    width: inherit;
+    /* Flexbox */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    /* Botão de "Entre em Contato" */
+    & li.link-contato {
+      /* Alinhar à direita */
+    }
+  }
+}
