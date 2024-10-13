@@ -15,9 +15,9 @@ button {
   color: var(--letra-preta);
 
   /* Efeito hover */
-  transition: background-color 2s;
+  transition: background-color 1s ease-in-out;
   &:hover {
-    background-color: var(--amarelo80);
+    background-color: var(--amarelo70) !important;
     border: none !important;
   }
 }
