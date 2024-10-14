@@ -26,5 +26,10 @@ nav#navbar-header {
     & li.link-contato {
       /* Alinhar à direita */
     }
+
+    /* Tipografia */
+    & a {
+      font-size: 0.875rem;
+    }
   }
 }
