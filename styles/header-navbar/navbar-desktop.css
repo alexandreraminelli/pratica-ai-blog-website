@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* Navbar Desktop (horizontal) */
-/* wp > 816px */
+/* wp > 824px */
 
 nav#navbar-header {
   /* Dimensões */
@@ -13,8 +13,14 @@ nav#navbar-header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 15px;
+
+    /* Links normais */
+    & .navbar-links {
+      width: 100%;
+      justify-content: center;
+    }
 
     /* Botão de "Entre em Contato" */
     & li.link-contato {

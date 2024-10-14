@@ -12,6 +12,15 @@ nav#navbar-header {
 
     /* Flexbox */
     display: flex;
+
+    & .navbar-links {
+      /* Flexbox */
+      display: flex;
+      flex-direction: inherit;
+      align-items: inherit;
+      justify-content: inherit;
+      gap: inherit;
+    }
   }
 
   /* Bloco de link */
@@ -49,4 +58,3 @@ nav#navbar-header {
     }
   }
 }
-

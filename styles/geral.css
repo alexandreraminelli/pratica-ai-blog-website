@@ -19,8 +19,8 @@
 
 /* Navbar */
 @import url("header-navbar/navbar-geral.css");
-@import url("header-navbar/navbar-mobile.css") screen and (max-width: 816px);
-@import url("header-navbar/navbar-desktop.css") screen and (min-width: 816px);
+@import url("header-navbar/navbar-mobile.css") screen and (max-width: 824px);
+@import url("header-navbar/navbar-desktop.css") screen and (min-width: 824px);
 
 /* Componentes */
 /* Botões */

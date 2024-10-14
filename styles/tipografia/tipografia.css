@@ -30,3 +30,8 @@ h4 {
 a {
   color: inherit; /* Herdar cor do elemento pai */
 }
+
+/* Não quebrar texto */
+.nowrap {
+  text-wrap: nowrap;
+}
