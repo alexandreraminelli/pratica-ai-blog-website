@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* Navbar Mobile (sidebar) */
-/* wp < 816px */
+/* wp < 824px */
 
 nav#navbar-header {
   /* Posição */
@@ -13,7 +13,6 @@ nav#navbar-header {
   /* Espaçamento */
   padding: 10px 20px 10px 16px;
   /* Flexbox */
-  display: flex;
   flex-direction: column;
 
   /* Aparência */
@@ -24,7 +23,6 @@ nav#navbar-header {
   /* Lista filha */
   & ul {
     /* Flexbox */
-    display: flex;
     flex-direction: column;
     gap: 15px;
   }
@@ -45,6 +43,16 @@ nav#navbar-header {
   /* Exibir o navbar */
   &.show {
     transform: translateX(0);
+  }
+}
+
+/* Botão hambúrguer de abrir o navbar mobile */
+#responsive-navbar-button {
+  background: none;
+
+  /* Ícone SVG */
+  &::before {
+    content: url("../../assets/svgs/ui-icons/ui-actions-icons/menu.svg");
   }
 }
 

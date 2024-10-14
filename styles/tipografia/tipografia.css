@@ -9,6 +9,11 @@ body {
   color: var(--letra-branca);
 }
 
+/* Transição ao aumentar ou diminuir fonte */
+* {
+  transition: font-size 2s;
+}
+
 /* Títulos */
 h1,
 h2,
@@ -29,4 +34,9 @@ h4 {
 /* Links */
 a {
   color: inherit; /* Herdar cor do elemento pai */
+}
+
+/* Não quebrar texto */
+.nowrap {
+  text-wrap: nowrap;
 }

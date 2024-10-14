@@ -8,6 +8,14 @@ button {
 }
 
 /* Botão estilo 01 */
+.button-style-01 {
+  /* Padding */
+  padding: 10px 14px !important;
+
+  /* Tipografia */
+  font-size: 0.875rem;
+  font-weight: 500;
+}
 
 /* Botão primário */
 .primary-button {
@@ -19,5 +27,7 @@ button {
   &:hover {
     background-color: var(--amarelo70) !important;
     border: none !important;
+    /* Não alterar cor da letra */
+    color: var(--letra-preta) !important;
   }
 }

@@ -6,6 +6,10 @@ header#page-header {
   & > * {
     padding-left: var(--padding-lateral-container);
     padding-right: var(--padding-lateral-container);
+
+    /* Transição ao redimencionar tela */
+    transition-property: padding;
+    transition-duration: 2s;
   }
 }
 
@@ -18,18 +22,15 @@ header#page-header {
   /* Flexbox */
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 10px; /* Espaço entre paragrafo e ícone */
 
   /* Tipografia */
-  text-align: start;
+  text-align: center;
   font-size: 0.75rem;
   /* Cor da letra */
-  & p,
-  & a {
-    color: var(--letra-cinza2);
-  }
-  /* Paragrafo */
   & p {
-    width: 100%;
+    color: var(--letra-cinza2);
   }
 
   /* Inserir ícone de redirecionamento */
@@ -50,6 +51,7 @@ header#page-header {
   /* Flexbox */
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   /* Espaçamento */
   padding-top: 20px;
@@ -58,18 +60,13 @@ header#page-header {
 
 /* Logo e título do header */
 #logo-header {
+  display: flex;
+  align-items: center;
   & img {
     /* Dimensões do logo */
     height: 35px;
-  }
-}
 
-/* Botão de navbar responsiva */
-#responsive-navbar-button {
-  background: none;
-
-  /* Ícone SVG */
-  &::before {
-    content: url("../../assets/svgs/ui-icons/ui-actions-icons/menu.svg");
+    /* Transição */
+    transition: height 1s;
   }
 }

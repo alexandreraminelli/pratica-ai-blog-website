@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* Header Mobile */
+/* wp < 816px */
+
+/* Alinhar texto do banner à direção de leitura  */
+@media screen and (max-width: 480px) {
+  #banner-newsletter-header p {
+    text-align: start;
+    width: 100%;
+  }
+}

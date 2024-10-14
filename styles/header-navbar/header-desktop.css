@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* Header Desktop */
+/* wp > 816px */
+
+/* Banner "Assine nossa newsletter" */
+#banner-newsletter-header {
+  /* Diminuir padding-bottom */
+  padding-bottom: 10px;
+
+  /* Tipografia */
+  font-size: 0.875rem;
+}
+
+/* SVG do logo e título */
+#logo-header img {
+  height: 40px;
+}
