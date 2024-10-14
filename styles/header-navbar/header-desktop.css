@@ -6,6 +6,9 @@
 #banner-newsletter-header {
   /* Diminuir padding-bottom */
   padding-bottom: 10px;
+
+  /* Tipografia */
+  font-size: 0.875rem;
 }
 
 /* SVG do logo e título */

@@ -9,6 +9,11 @@ body {
   color: var(--letra-branca);
 }
 
+/* Transição ao aumentar ou diminuir fonte */
+* {
+  transition: font-size 2s;
+}
+
 /* Títulos */
 h1,
 h2,
