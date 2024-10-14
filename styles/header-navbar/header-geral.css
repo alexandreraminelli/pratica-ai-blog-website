@@ -18,17 +18,17 @@ header#page-header {
   /* Flexbox */
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 10px; /* Espaço entre paragrafo e ícone */
 
   /* Tipografia */
-  text-align: start;
+  text-align: center;
   font-size: 0.75rem;
   /* Cor da letra */
-  & p,
-  & a {
-    color: var(--letra-cinza2);
-  }
-  /* Paragrafo */
   & p {
+    color: var(--letra-cinza2);
+
+    /* Bloco do parágrafo */
     width: 100%;
   }
 
@@ -37,6 +37,9 @@ header#page-header {
     /* SVG do ícone */
     content: url("../../assets/svgs/ui-icons/ui-actions-icons/redirect.svg");
   }
+
+  /* Transições */
+  transition: padding 1.5s;
 }
 
 /* Header principal (onde há a logo e navbar) */
