@@ -31,9 +31,6 @@ header#page-header {
   /* Cor da letra */
   & p {
     color: var(--letra-cinza2);
-
-    /* Bloco do parágrafo */
-    width: 100%;
   }
 
   /* Inserir ícone de redirecionamento */
