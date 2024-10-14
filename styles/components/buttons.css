@@ -8,6 +8,14 @@ button {
 }
 
 /* Botão estilo 01 */
+.button-style-01 {
+  /* Padding */
+  padding: 10px 14px !important;
+
+  /* Tipografia */
+  font-size: 0.875rem;
+  font-weight: 500;
+}
 
 /* Botão primário */
 .primary-button {
