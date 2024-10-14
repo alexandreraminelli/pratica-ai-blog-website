@@ -68,5 +68,8 @@ header#page-header {
   & img {
     /* Dimensões do logo */
     height: 35px;
+
+    /* Transição */
+    transition: height 1s;
   }
 }

@@ -7,3 +7,8 @@
   /* Diminuir padding-bottom */
   padding-bottom: 10px;
 }
+
+/* SVG do logo e título */
+#logo-header img {
+  height: 40px;
+}
