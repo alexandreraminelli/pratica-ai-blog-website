@@ -6,6 +6,10 @@ header#page-header {
   & > * {
     padding-left: var(--padding-lateral-container);
     padding-right: var(--padding-lateral-container);
+
+    /* Transição ao redimencionar tela */
+    transition-property: padding;
+    transition-duration: 2s;
   }
 }
 
@@ -37,9 +41,6 @@ header#page-header {
     /* SVG do ícone */
     content: url("../../assets/svgs/ui-icons/ui-actions-icons/redirect.svg");
   }
-
-  /* Transições */
-  transition: padding 1.5s;
 }
 
 /* Header principal (onde há a logo e navbar) */
