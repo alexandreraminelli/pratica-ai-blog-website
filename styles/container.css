@@ -15,3 +15,12 @@
     --container: 1280px;
   }
 }
+
+/* Classe */
+.pd-container {
+  /* width: 100%; */
+  padding-left: var(--padding-lateral-container) !important;
+  padding-right: var(--padding-lateral-container) !important;
+
+  transition: padding 2s;
+}

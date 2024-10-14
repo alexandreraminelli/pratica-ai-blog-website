@@ -1,18 +1,6 @@
 @charset "UTF-8";
 /* Header geral */
 
-header#page-header {
-  /* Filhos diretos */
-  & > * {
-    padding-left: var(--padding-lateral-container);
-    padding-right: var(--padding-lateral-container);
-
-    /* Transição ao redimencionar tela */
-    transition-property: padding;
-    transition-duration: 2s;
-  }
-}
-
 /* Banner "Assine nossa newsletter" */
 #banner-newsletter-header {
   /* Espaçamento */
@@ -41,7 +29,11 @@ header#page-header {
 }
 
 /* Header principal (onde há a logo e navbar) */
-#header-principal {
+header#header-principal {
+  /* Sticky */
+  position: sticky;
+  top: 0;
+
   /* Aparência */
   background: var(--background-secundario);
   /* Borda */
