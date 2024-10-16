@@ -26,16 +26,27 @@ h2 {
   font-weight: 600;
 }
 
-h3,
-h4 {
-  font-weight: 700;
-}
-
 /* Títulos nível 2 */
 h2 {
   /* Geral */
   /* Mobile */
   font-size: 1.75rem;
+}
+
+/* Títulos nível 3 */
+h3 {
+  /* Geral */
+  font-weight: 700;
+  /* Mobile */
+  font-size: 1.5rem;
+}
+
+/* Títulos nível 4 */
+h4 {
+  /* Geral */
+  font-weight: 600;
+  /* Mobile */
+  font-size: 1.125rem;
 }
 
 /* Links */
