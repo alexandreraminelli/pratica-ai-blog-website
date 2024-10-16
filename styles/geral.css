@@ -13,6 +13,9 @@
 /* Backgrounds */
 @import url("backgrounds.css");
 
+/* Bordas */
+@import url("bordas.css");
+
 /* Header */
 @import url("header-navbar/header-geral.css");
 @import url("header-navbar/header-mobile.css") screen and (max-width: 816px);
@@ -33,3 +36,5 @@
 @import url("components/buttons.css");
 /* Badges */
 @import url("components/badges.css");
+/* Cards */
+@import url("components/cards.css");

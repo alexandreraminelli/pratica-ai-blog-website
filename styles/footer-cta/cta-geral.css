@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CTA (Call to Action) do footer */
+/* Todas as telas */
+
+#footer-cta {
+  /* Espaçamento */
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  /* Tipografia */
+}
+
+/* Headline do CTA */
+#footer-cta-headline {
+  /* Flexbox */
+  display: flex;
+  /* Espaço entre o headline e card list */
+  margin-bottom: 40px;
+}
+
+/* Lista de cards do CTA */
+#footer-cta-cards-list {
+  /* Espaçamento */
+  padding: 10px;
+  /* Flexbox */
+  display: flex;
+}
