@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* Tipografia desktop */
+/* vw > 1024px */
+
+/* Exibir texto desktop */
+.texto-desktop {
+  display: none;
+}
+/* Ocultar texto mobile */
+.texto-mobile {
+  display: none;
+}
