@@ -40,6 +40,10 @@ h3 {
   /* Mobile */
   font-size: 1.5rem;
 }
+h3.small {
+  /* Mobile */
+  font-size: 1rem;
+}
 
 /* Títulos nível 4 */
 h4 {
