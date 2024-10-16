@@ -31,6 +31,13 @@ h4 {
   font-weight: 700;
 }
 
+/* Títulos nível 2 */
+h2 {
+  /* Geral */
+  /* Mobile */
+  font-size: 1.75rem;
+}
+
 /* Links */
 a {
   color: inherit; /* Herdar cor do elemento pai */
