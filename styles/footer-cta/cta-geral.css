@@ -24,4 +24,44 @@
   padding: 10px;
   /* Flexbox */
   display: flex;
+
+  /* Container com o título e ícone */
+  & .titulo-icone {
+    /* Flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Título */
+    & h3 {
+      width: 100%;
+      text-align: left;
+    }
+
+    /* Ícone */
+    .icone {
+      /* Círculo */
+      background-color: var(--amarelo55);
+      border-radius: 50%;
+      /* Dimensões */
+      height: 40px;
+      width: 40px;
+      /* Alinhamento: flexbox */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      /* Ícone SVG */
+      &::after {
+        content: url("../../assets/svgs/ui-icons/ui-actions-icons/redirect-black.svg");
+        /* Espaçamento */
+        padding: 10px;
+        /* Alinhamento: flexbox */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
 }
