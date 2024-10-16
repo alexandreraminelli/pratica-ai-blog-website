@@ -36,7 +36,15 @@ a {
   color: inherit; /* Herdar cor do elemento pai */
 }
 
-/* Não quebrar texto */
+/* Parágrafos */
+p {
+  /* Geral */
+  color: var(--letra-cinza2);
+  /* Mobile */
+  font-size: 0.875rem;
+}
+
+/* Classe para não quebrar texto */
 .nowrap {
   text-wrap: nowrap;
 }
