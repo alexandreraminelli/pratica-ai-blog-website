@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CTA (Call to Action) do footer */
+/* Mobile (vw > 1200px) */
+
+/* Lista de cards do CTA */
+#footer-cta-cards-list {
+  /* Espaçamento */
+  padding: 20px;
+  /* Flexbox */
+  gap: 20px;
+}

@@ -4,6 +4,8 @@
 
 /* Lista de cards do CTA */
 #footer-cta-cards-list {
+  /* Espaçamento */
+  padding: 10px;
   /* Flexbox */
   flex-direction: column;
   gap: 10px;

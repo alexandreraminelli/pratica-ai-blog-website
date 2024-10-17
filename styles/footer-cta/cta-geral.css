@@ -26,10 +26,14 @@
 
 /* Lista de cards do CTA */
 #footer-cta-cards-list {
-  /* Espaçamento */
-  padding: 10px;
   /* Flexbox */
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  & > * {
+    flex: 1; /* filhos compartilharem a mesma largura */
+  }
 
   /* Container com o título e ícone */
   & .titulo-icone {
