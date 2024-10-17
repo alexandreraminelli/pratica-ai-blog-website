@@ -14,8 +14,17 @@
 #footer-cta-headline {
   /* Flexbox */
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+
   /* Espaço entre o headline e card list */
   margin-bottom: 40px;
+
+  /* Logo desktop */
+  & > img {
+    height: 120px;
+  }
 
   /* Título do CTA */
   & h2 {
