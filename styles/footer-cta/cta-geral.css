@@ -32,6 +32,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /* Espaçamento */
+    margin-bottom: 10px;
 
     /* Título */
     & h3 {
@@ -40,7 +42,7 @@
     }
 
     /* Ícone */
-    .icone {
+    & .icone {
       /* Círculo */
       background-color: var(--amarelo55);
       border-radius: 50%;
@@ -49,7 +51,7 @@
       width: 40px;
       /* Alinhamento: flexbox */
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
 
       /* Ícone SVG */
@@ -57,10 +59,6 @@
         content: url("../../assets/svgs/ui-icons/ui-actions-icons/redirect-black.svg");
         /* Espaçamento */
         padding: 10px;
-        /* Alinhamento: flexbox */
-        display: flex;
-        align-items: center;
-        justify-content: center;
       }
     }
   }
