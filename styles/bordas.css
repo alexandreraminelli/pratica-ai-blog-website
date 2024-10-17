@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* Bordas */
+.border-rounded-1 {
+  border-radius: 10px;
+  border: 1px solid var(--dark15);
+}

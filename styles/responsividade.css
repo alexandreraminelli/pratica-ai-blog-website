@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* Ocultar elementos do desktop no mobile */
+@media screen and (max-width: 768px) {
+  .display-desktop {
+    display: none;
+  }
+}
+
+/* Ocultar elementos do mobile no desktop */
+@media screen and (min-width: 769px) {
+  .display-mobile {
+    display: none;
+  }
+}

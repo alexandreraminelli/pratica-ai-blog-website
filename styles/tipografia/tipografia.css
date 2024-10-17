@@ -26,17 +26,55 @@ h2 {
   font-weight: 600;
 }
 
-h3,
-h4 {
+/* Títulos nível 2 */
+h2 {
+  /* Geral */
+  line-height: 130%;
+
+  /* Mobile */
+  font-size: 1.75rem;
+}
+
+/* Títulos nível 3 */
+h3 {
+  /* Geral */
   font-weight: 700;
+  /* Mobile */
+  font-size: 1.5rem;
+}
+h3.small {
+  /* Mobile */
+  font-size: 1rem;
+}
+
+/* Títulos nível 4 */
+h4 {
+  /* Geral */
+  font-weight: 600;
+  /* Mobile */
+  font-size: 1.125rem;
 }
 
 /* Links */
 a {
   color: inherit; /* Herdar cor do elemento pai */
 }
+/* Remover underline */
+a.no-underline {
+  text-decoration: none;
+}
 
-/* Não quebrar texto */
+/* Parágrafos */
+p {
+  /* Geral */
+  color: var(--letra-cinza2);
+  line-height: 150%;
+
+  /* Mobile */
+  font-size: 0.875rem;
+}
+
+/* Classe para não quebrar texto */
 .nowrap {
   text-wrap: nowrap;
 }

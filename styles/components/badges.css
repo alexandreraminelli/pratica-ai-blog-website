@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* Badges */
+
+/* Geral e mobile */
+.badge {
+  /* Aparência */
+  background-color: var(--dark20);
+  border-radius: 4px;
+  padding: 4px 8px;
+  width: fit-content;
+  height: fit-content;
+  /* Tipografia */
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--letra-branca);
+}

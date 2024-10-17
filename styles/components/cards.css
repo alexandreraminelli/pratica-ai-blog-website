@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* Cards */
+/* Todas as telas */
+
+.card {
+  /* Aparência */
+  border-radius: 10px;
+  border: 1px solid var(--dark15);
+
+  /* Espaçamento */
+  padding: 24px;
+}

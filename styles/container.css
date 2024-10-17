@@ -9,8 +9,9 @@
   --padding-lateral-container: calc((100vw - var(--container)) / 2);
 }
 
-/* Container desktop ( */
-@media screen and (min-width: 1300px) {
+/* Container desktop (em telas maiores que 1408px, aplica 1280px de container, em vez da porcentagem da viewport) */
+/* Nota: 91% de 1408 é 1281.28, o que garante uma mudança suave e não perceptível na mudança da largura do container. */
+@media screen and (min-width: 1408px) {
   :root {
     --container: 1280px;
   }
