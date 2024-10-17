@@ -16,6 +16,12 @@
   display: flex;
   /* Espaço entre o headline e card list */
   margin-bottom: 40px;
+
+  /* Título do CTA */
+  & h2 {
+    /* Espaçamento */
+    margin-bottom: 4px;
+  }
 }
 
 /* Lista de cards do CTA */
