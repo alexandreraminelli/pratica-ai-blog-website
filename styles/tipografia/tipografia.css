@@ -32,7 +32,7 @@ h2 {
   line-height: 130%;
 
   /* Mobile */
-  font-size: 1.75rem;
+  font-size: 1.75rem; /* 28px */
 }
 
 /* Títulos nível 3 */
@@ -40,11 +40,11 @@ h3 {
   /* Geral */
   font-weight: 700;
   /* Mobile */
-  font-size: 1.5rem;
+  font-size: 1.5rem; /* 24px */
 }
 h3.small {
   /* Mobile */
-  font-size: 1rem;
+  font-size: 1rem; /* 16px */
 }
 
 /* Títulos nível 4 */
@@ -52,7 +52,7 @@ h4 {
   /* Geral */
   font-weight: 600;
   /* Mobile */
-  font-size: 1.125rem;
+  font-size: 1.125rem; /* 18px */
 }
 
 /* Links */
