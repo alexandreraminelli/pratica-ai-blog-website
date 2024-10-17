@@ -29,6 +29,8 @@ h2 {
 /* Títulos nível 2 */
 h2 {
   /* Geral */
+  line-height: 130%;
+
   /* Mobile */
   font-size: 1.75rem;
 }
@@ -67,7 +69,6 @@ p {
   /* Geral */
   color: var(--letra-cinza2);
   line-height: 150%;
-  letter-spacing: -3%;
 
   /* Mobile */
   font-size: 0.875rem;
