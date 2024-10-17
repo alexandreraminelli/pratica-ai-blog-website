@@ -32,8 +32,8 @@
 /* Footer */
 /* Footer CTA */
 @import url("footer-cta/cta-geral.css");
-@import url("footer-cta/cta-mobile.css") screen and (max-width: 1200px);
-@import url("footer-cta/cta-desktop.css") screen and (min-width: 1201px);
+@import url("footer-cta/cta-mobile.css") screen and (max-width: 1024px);
+@import url("footer-cta/cta-desktop.css") screen and (min-width: 1025px);
 
 /* Componentes */
 /* Botões */
