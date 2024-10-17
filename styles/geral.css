@@ -16,6 +16,9 @@
 /* Bordas */
 @import url("bordas.css");
 
+/* Responsividade */
+@import url("responsividade.css");
+
 /* Header */
 @import url("header-navbar/header-geral.css");
 @import url("header-navbar/header-mobile.css") screen and (max-width: 816px);
