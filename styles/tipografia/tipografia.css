@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Tipografia */
+/* Tipografia geral e mobile (vw < 1024px) */
 
 /* Tipografia padrão */
 body {
@@ -24,6 +25,15 @@ h3 {
 h1,
 h2 {
   font-weight: 600;
+}
+
+/* Títulos nível 1 */
+h1 {
+  /* Geral */
+  line-height: 120%;
+
+  /* Mobile */
+  font-size: 1.875rem; /* 30px */
 }
 
 /* Títulos nível 2 */

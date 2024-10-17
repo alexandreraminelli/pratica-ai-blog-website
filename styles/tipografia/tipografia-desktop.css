@@ -2,6 +2,11 @@
 /* Tipografia desktop */
 /* vw > 1024px */
 
+/* Títulos nível 1 */
+h1 {
+  font-size: 3.438rem; /* 55px */
+}
+
 /* Títulos nível 2 */
 h2 {
   font-size: 2.75rem; /* 44px */
