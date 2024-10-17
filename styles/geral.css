@@ -27,7 +27,13 @@
 /* Navbar */
 @import url("header-navbar/navbar-geral.css");
 @import url("header-navbar/navbar-mobile.css") screen and (max-width: 824px);
-@import url("header-navbar/navbar-desktop.css") screen and (min-width: 824px);
+@import url("header-navbar/navbar-desktop.css") screen and (min-width: 825px);
+
+/* Footer */
+/* Footer CTA */
+@import url("footer-cta/cta-geral.css");
+@import url("footer-cta/cta-mobile.css") screen and (max-width: 1024px);
+@import url("footer-cta/cta-desktop.css") screen and (min-width: 1025px);
 
 /* Footer */
 /* Footer CTA */

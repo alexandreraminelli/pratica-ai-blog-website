@@ -31,3 +31,32 @@ button {
     color: var(--letra-preta) !important;
   }
 }
+
+/* Botão de redirecionamento */
+/* Ícone */
+.redirect-button {
+  /* Círculo */
+  background-color: var(--amarelo55);
+  border-radius: 50%;
+  /* Dimensões */
+  height: 40px;
+  width: 40px;
+  /* Alinhamento: flexbox */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  /* Ícone SVG */
+  &::after {
+    content: url("../../assets/svgs/ui-icons/ui-actions-icons/redirect-black.svg");
+    /* Espaçamento */
+    padding: 10px;
+  }
+
+  /* Efeito hover */
+  transition: background-color 1s ease-in-out;
+  &:hover {
+    /* Círculo */
+    background-color: var(--amarelo70);
+  }
+}

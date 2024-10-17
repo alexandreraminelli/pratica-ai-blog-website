@@ -6,16 +6,28 @@
   /* Espaçamento */
   padding-top: 40px;
   padding-bottom: 40px;
-
-  /* Tipografia */
 }
 
 /* Headline do CTA */
 #footer-cta-headline {
   /* Flexbox */
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+
   /* Espaço entre o headline e card list */
   margin-bottom: 40px;
+
+  /* Logo desktop */
+  & > img {
+    height: 120px;
+  }
+
+  /* Linha com imagem e badge */
+  & .linha-badge {
+    margin-bottom: 20px;
+  }
 
   /* Título do CTA */
   & h2 {
@@ -26,10 +38,14 @@
 
 /* Lista de cards do CTA */
 #footer-cta-cards-list {
-  /* Espaçamento */
-  padding: 10px;
   /* Flexbox */
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  & > * {
+    flex: 1; /* filhos compartilharem a mesma largura */
+  }
 
   /* Container com o título e ícone */
   & .titulo-icone {
@@ -45,27 +61,6 @@
     & h3 {
       width: 100%;
       text-align: left;
-    }
-
-    /* Ícone */
-    & .icone {
-      /* Círculo */
-      background-color: var(--amarelo55);
-      border-radius: 50%;
-      /* Dimensões */
-      height: 40px;
-      width: 40px;
-      /* Alinhamento: flexbox */
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-
-      /* Ícone SVG */
-      &::after {
-        content: url("../../assets/svgs/ui-icons/ui-actions-icons/redirect-black.svg");
-        /* Espaçamento */
-        padding: 10px;
-      }
     }
   }
 }

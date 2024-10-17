@@ -1,3 +1,31 @@
 @charset "UTF-8";
 /* Tipografia desktop */
 /* vw > 1024px */
+
+/* Títulos nível 1 */
+h1 {
+  font-size: 3.438rem; /* 55px */
+}
+
+/* Títulos nível 2 */
+h2 {
+  font-size: 2.75rem; /* 44px */
+}
+
+/* Títulos nível 3 */
+h3 {
+  font-size: 1.875rem; /* 30px */
+}
+h3.small {
+  font-size: 1.125rem; /* 18px */
+}
+
+/* Títulos nível 4 */
+h4 {
+  font-size: 1.25rem /* 20px */;
+}
+
+/* Parágrafos */
+p {
+  font-size: 1rem; /* 16px */
+}

@@ -4,6 +4,8 @@
 
 /* Lista de cards do CTA */
 #footer-cta-cards-list {
+  /* Espaçamento */
+  padding: 10px;
   /* Flexbox */
   flex-direction: column;
   gap: 10px;
@@ -12,12 +14,10 @@
 /* Headline do CTA */
 #footer-cta-headline {
   /* Linha com imagem e badge */
-  .linha-badge {
+  & .linha-badge {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
-
-    margin-bottom: 20px;
   }
 }
