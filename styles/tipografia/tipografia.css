@@ -75,7 +75,14 @@ p {
   text-wrap: nowrap;
 }
 
-/* Ocultar textos para desktop */
-.texto-desktop {
-  display: none;
+/* Ocultar texto para mobile e desktop */
+@media screen and (max-width: 1024px) {
+  .texto-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .texto-mobile {
+    display: none;
+  }
 }
