@@ -6,8 +6,6 @@
   /* Espaçamento */
   padding-top: 40px;
   padding-bottom: 40px;
-
-  /* Tipografia */
 }
 
 /* Headline do CTA */
@@ -24,6 +22,11 @@
   /* Logo desktop */
   & > img {
     height: 120px;
+  }
+
+  /* Linha com imagem e badge */
+  & .linha-badge {
+    margin-bottom: 20px;
   }
 
   /* Título do CTA */

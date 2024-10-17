@@ -2,6 +2,23 @@
 /* CTA (Call to Action) do footer */
 /* Mobile (vw > 1200px) */
 
+#footer-cta {
+  /* Espaçamento */
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Headline do footer CTA */
+#footer-cta-headline {
+  /* Espaçamento */
+  margin-bottom: 60px;
+
+  /* Título do CTA */
+  & h2 {
+    margin-bottom: 20px;
+  }
+}
+
 /* Lista de cards do CTA */
 #footer-cta-cards-list {
   /* Espaçamento */
