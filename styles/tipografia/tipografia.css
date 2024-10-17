@@ -66,6 +66,9 @@ a.no-underline {
 p {
   /* Geral */
   color: var(--letra-cinza2);
+  line-height: 150%;
+  letter-spacing: -3%;
+
   /* Mobile */
   font-size: 0.875rem;
 }
