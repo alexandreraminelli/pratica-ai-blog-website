@@ -1,3 +1,17 @@
 @charset "UTF-8";
 /* Rodapé (footer) */
 /* Mobile (vw < 1016px */
+
+/* Footer navigation */
+#footer-navigation ul {
+  /* Grid */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+
+  /* Blocos de links */
+  & > li {
+    height: 1fr; /* altura: 1fr (linha do grid) */
+  }
+}

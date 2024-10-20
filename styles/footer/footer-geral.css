@@ -16,3 +16,36 @@ footer#footer-principal {
     list-style-type: none;
   }
 }
+
+/* Footer navigation */
+#footer-navigation ul {
+  /* Blocos de links */
+  & > li {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    /* Largura (área de toque) dos links */
+    & a {
+      width: fit-content;
+    }
+
+    /* Tipografia dos links de páginas */
+    & > a {
+      font-weight: 500;
+    }
+
+    & > ul {
+      /* Flexbox */
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      /* Tipografia dos links de seção */
+      & a {
+        color: var(--letra-cinza2);
+        font-weight: normal;
+      }
+    }
+  }
+}
