@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Rodapé (footer) */
+/* Todas as telas */
+
+footer#footer-principal {
+  /* Espaçamento */
+  padding-top: 40px;
+  padding-bottom: 24px;
+
+  /* Links */
+  & a {
+    /* Remover underline */
+    text-decoration: none;
+  }
+  & ul {
+    list-style-type: none;
+  }
+}
