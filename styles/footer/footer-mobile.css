@@ -2,10 +2,12 @@
 /* Rodapé (footer) */
 /* Mobile (vw < 1016px) */
 
+/* Footer navigation */
 #footer-navigation {
   margin-bottom: 40px;
 
-  & ul {
+  /* <ul> principal */
+  & > ul {
     /* Grid */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
