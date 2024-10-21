@@ -60,3 +60,34 @@ button {
     background-color: var(--amarelo70);
   }
 }
+
+/* Botão de redirecionamento 2 */
+.redirect-button-02 {
+  /* Aparência */
+  background-color: var(--dark08);
+  border-radius: 6px;
+  border: 1px solid var(--dark15);
+
+  /* Espaçamento */
+  padding: 8px 14px;
+  /* Flexbox */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+
+  /* Tipografia */
+  color: var(--letra-cinza2);
+
+  /* Ícone no botão */
+  &::after {
+    content: url("../../assets/svgs/ui-icons/ui-actions-icons/redirect.svg");
+  }
+
+  /* Efeito hover */
+  transition: color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  &:hover {
+    color: var(--letra-branca);
+    border-color: var(--dark30);
+  }
+}
