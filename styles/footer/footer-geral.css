@@ -71,3 +71,21 @@ footer#footer-principal {
     }
   }
 }
+/* Ícones de redes sociais do footer */
+#footer-redes-sociais {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 14px;
+
+  /* Ícones */
+  & .icone-rede-social-1::after {
+    content: url("../../assets/svgs/social-media/social-media-1.svg");
+  }
+  & .icone-rede-social-2::after {
+    content: url("../../assets/svgs/social-media/social-media-2.svg");
+  }
+  & .icone-rede-social-3::after {
+    content: url("../../assets/svgs/social-media/social-media-3.svg");
+  }
+}
