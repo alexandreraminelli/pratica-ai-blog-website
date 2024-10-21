@@ -18,7 +18,6 @@ nav#navbar-header {
   /* Aparência */
   background: var(--dark15);
   border-left: 2px solid var(--amarelo55);
-  box-shadow: -4px 0 4px 1px rgba(0, 0, 0, 0.4);
 
   /* Lista filha */
   & ul {
@@ -43,6 +42,7 @@ nav#navbar-header {
   /* Exibir o navbar */
   &.show {
     transform: translateX(0);
+    box-shadow: -4px 0 8px 4px rgba(0, 0, 0, 0.3);
   }
 }
 

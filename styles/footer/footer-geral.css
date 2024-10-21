@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* Rodapé (footer) */
+/* Todas as telas */
+
+footer#footer-principal {
+  /* Espaçamento */
+  padding-top: 40px;
+  padding-bottom: 24px;
+
+  /* Links */
+  & a {
+    /* Remover underline */
+    text-decoration: none;
+  }
+  & ul {
+    /* Remover marcador das listas */
+    list-style-type: none;
+  }
+}
+
+/* Footer navigation */
+#footer-navigation ul {
+  /* Blocos de links */
+  & > li {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    /* Largura (área de toque) dos links */
+    & a {
+      width: fit-content;
+    }
+
+    /* Tipografia dos links de páginas */
+    & > a {
+      font-weight: 500;
+
+      /* Transição para efeito hover */
+      transition: color 0.25s ease-in-out;
+      /* Efeito hover dos links de páginas */
+      &:hover {
+        color: var(--amarelo55);
+      }
+    }
+
+    & > ul {
+      /* Flexbox */
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      /* Tipografia dos links de seção */
+      & a {
+        color: var(--letra-cinza2);
+        font-weight: normal;
+
+        /* Efeito hover dos links de seção */
+        &:hover {
+          color: var(--letra-branca);
+        }
+      }
+    }
+
+    /* Bloco de links de recursos */
+    &.links-recursos-footer > ul {
+      /* Flexbox */
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 9px;
+    }
+  }
+}
+
+/* Footer social e legal */
+#footer-social-and-legal {
+  /* Espaçamento */
+  padding-top: 24px;
+}
+
+/* Ícones de redes sociais do footer */
+#footer-redes-sociais {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 14px;
+
+  /* Ícones */
+  & .icone-rede-social-1::after {
+    content: url("../../assets/svgs/social-media/social-media-1.svg");
+  }
+  & .icone-rede-social-2::after {
+    content: url("../../assets/svgs/social-media/social-media-2.svg");
+  }
+  & .icone-rede-social-3::after {
+    content: url("../../assets/svgs/social-media/social-media-3.svg");
+  }
+}

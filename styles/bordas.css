@@ -5,3 +5,8 @@
   border-radius: 10px;
   border: 1px solid var(--dark15);
 }
+
+/* Borda no topo ou embaixo */
+.border-top {
+  border-top: solid 1px var(--dark15);
+}
