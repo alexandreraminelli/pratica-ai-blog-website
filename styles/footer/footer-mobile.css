@@ -2,33 +2,37 @@
 /* Rodapé (footer) */
 /* Mobile (vw < 1016px */
 
-#footer-navigation ul {
-  /* Grid */
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+#footer-navigation {
+  margin-bottom: 40px;
 
-  /* Espaçamento entre os itens */
-  column-gap: 20px;
-  row-gap: 20px;
+  & ul {
+    /* Grid */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
-  /* Blocos de links */
-  & > li {
-    height: 1fr; /* altura: 1fr (linha do grid) */
+    /* Espaçamento entre os itens */
+    column-gap: 20px;
+    row-gap: 20px;
 
-    /* Tipografia dos links de página */
-    & > a {
-      font-size: 1rem; /* 16px */
-    }
+    /* Blocos de links */
+    & > li {
+      height: 1fr; /* altura: 1fr (linha do grid) */
 
-    /* Tipografia dos links de seção */
-    & > ul > li > a {
-      font-size: 0.875rem; /* 14px */
-    }
+      /* Tipografia dos links de página */
+      & > a {
+        font-size: 1rem; /* 16px */
+      }
 
-    /* Bloco de links de recursos */
-    &.links-recursos-footer {
-      /* Ocupar 2 colunas */
-      grid-column: span 2;
+      /* Tipografia dos links de seção */
+      & > ul > li > a {
+        font-size: 0.875rem; /* 14px */
+      }
+
+      /* Bloco de links de recursos */
+      &.links-recursos-footer {
+        /* Ocupar 2 colunas */
+        grid-column: span 2;
+      }
     }
   }
 }
