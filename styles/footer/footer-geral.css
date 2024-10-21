@@ -13,6 +13,7 @@ footer#footer-principal {
     text-decoration: none;
   }
   & ul {
+    /* Remover marcador das listas */
     list-style-type: none;
   }
 }
@@ -33,6 +34,13 @@ footer#footer-principal {
     /* Tipografia dos links de páginas */
     & > a {
       font-weight: 500;
+
+      /* Transição para efeito hover */
+      transition: color 0.25s ease-in-out;
+      /* Efeito hover dos links de páginas */
+      &:hover {
+        color: var(--amarelo55);
+      }
     }
 
     & > ul {
@@ -45,6 +53,11 @@ footer#footer-principal {
       & a {
         color: var(--letra-cinza2);
         font-weight: normal;
+
+        /* Efeito hover dos links de seção */
+        &:hover {
+          color: var(--letra-branca);
+        }
       }
     }
   }
