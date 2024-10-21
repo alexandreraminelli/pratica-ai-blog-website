@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* Rodapé (footer) */
+/* Desktop (vw > 1017px) */
+
+/* Footer navigation */
+#footer-navigation {
+  /* Espaçamento */
+  padding: 60px 0;
+
+  /* <ul> principal */
+  & ul {
+    /* Flexbox */
+    display: flex;
+    flex-direction: row;
+
+    /* <li> das páginas */
+    & > li {
+      /* Tamanhos iguais */
+      flex: 1;
+
+      /* Espaço entre link e <ul> interno */
+      gap: 28px;
+
+      /* <ul> das seções */
+      & > ul {
+        gap: 12px;
+      }
+    }
+  }
+}

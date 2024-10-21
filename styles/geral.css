@@ -37,6 +37,7 @@
 /* Footer */
 @import url("footer/footer-geral.css");
 @import url("footer/footer-mobile.css") screen and (max-width: 1016px);
+@import url("footer/footer-desktop.css") screen and (min-width: 1017px);
 
 /* Componentes */
 /* Botões */

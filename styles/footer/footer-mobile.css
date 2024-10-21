@@ -31,6 +31,15 @@
       }
 
       /* Bloco de links de recursos */
+      &.links-recursos-footer > ul {
+        /* Flexbox */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 9px;
+      }
+
+      /* Bloco de links de recursos */
       &.links-recursos-footer {
         /* Ocupar 2 colunas */
         grid-column: span 2;
