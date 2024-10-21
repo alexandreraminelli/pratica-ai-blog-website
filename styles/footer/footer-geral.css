@@ -71,6 +71,13 @@ footer#footer-principal {
     }
   }
 }
+
+/* Footer social e legal */
+#footer-social-and-legal {
+  /* Espaçamento */
+  padding-top: 24px;
+}
+
 /* Ícones de redes sociais do footer */
 #footer-redes-sociais {
   display: flex;
